@@ -53,7 +53,7 @@ Learn about it
 
 #### ***1. Inventory*** is one of the key component How ansible work?
 - Ansible allows us to have a seperation and as well as segregetion of the servers.
--```
+- ```
   mail.example.com
   [webserver]
   foo.example.com
@@ -65,13 +65,16 @@ Learn about it
   three.example.com
   
  ```
+
 > **Ansible allows us to Inventary means categorization & put your servers  into a certain category.**
 
-* **NOTE : YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialization language. It is commonly used for configuration files and in applications where data is being stored or transmitted.**
+- **NOTE : YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialization language.\ 
+   It is commonly used for configuration files and in applications where data is being stored or transmitted.**
 
 > **Ansible uses ML file, and YML is one of the easiest way of writing the code**
 > This is the actual code how you categorized your server code
-> ```
+
+- ```
   all :
       hosts:
          mail.example.com:
@@ -86,10 +89,11 @@ Learn about it
                  two.example.com:
                  three.example.com:
                                   
- ```
+  ```
  
  
 #### **2. Playbook**
+
 - ***Set of Tasks***
 
 - Just like in the programming world we have loops and functions and all, In the world of ansible we have a playbook.
