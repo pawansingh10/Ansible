@@ -1,8 +1,8 @@
 # Ansible
 Brief Introduction about Ansible
 
-# EngineX
-Learn about it
+# Nginx
+  
 
 ## **Ansible**
 - Ansible is one of the most popular tool and specially very popular in the community of Devops.
@@ -51,6 +51,7 @@ Learn about it
 >  **Aware** of what is already there 
 
 #### ***1. Inventory*** is one of the key component How ansible work?
+***
 - Ansible allows us to have a seperation and as well as segregetion of the servers.
 - ```ansible
   mail.example.com
@@ -62,11 +63,11 @@ Learn about it
   one.exampl.com
   two.example.com
   three.example.com
- ```
+  ```
 
->   **Ansible allows us to Inventary means categorization & put your servers  into a certain category.**
+**Ansible allows us to Inventary means categorization & put your servers  into a certain category.**
 
->  **NOTE : YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialization language.\ 
+>  **NOTE : YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialization language.\
    It is commonly used for configuration files and in applications where data is being stored or transmitted.**
 
 
