@@ -1,8 +1,55 @@
 # Ansible
 Brief Introduction about Ansible
 
-# Nginx
-  
+# NGINX
+***
+- What is NGINX?
+
+- What is the problem that NGINX is trying to solve?
+
+
+- NGINX is actually a very smart software and soving the smart problem.
+
+- You worked on a application & you worked on local machine, whenever you run this application at run on a specific port like IDEs development environment.
+
+- Now It's time that you want to put this application  on some big giant servers like AWS, azure etc.
+
+- In that system you have spin of machine ubuntu, centOs and you have install Database on it, deploy your application.
+
+- Next, You spin of you machine probablily npm start or django run 
+
+- Application running on the port 4000
+
+- You ask that hey users please go a head and enjoy my application 
+
+- People are enjoying your application using it every single day, you realize that there are too much traffic on this port.
+
+- Now you either on another instance of this application since they are connected with same database not big issue.
+
+- You want some how that load should be manage.
+
+- So Now you run one more your application which is  another instance of your application on  port 3000 and you emails all your users that port 3000 is also available in case of more traffics
+
+- It sounds great to you but not to your users.
+
+- Again traffic increased exponentially that a there are more ports available 5000, 6000 etc
+
+- This is the classic problem and that's why a software like **NGINX** comes in between
+
+- What NGINX does is that Hey users you probabily aware of already these famous ports like 443 or 80 which is by default your browser  serves so you don't even have to remember these ports.
+
+- Not only that It also put a barrier wall that users doesn't have bother about should I connect this port or that port.
+
+- Behind the scene NGINX actually takes all the requests from the users and wherever these application serving is going to talk to NGINX.
+
+- NGINX smartly manage the load that which server or which instance is having low amount of load and redirect the request on that port.
+
+- If you can use NGINX little bit smartly, you can handle routes. 
+
+- NGINX, actually load up a simple cache that all the requests for this particular  rout store that in a cache so that it doesn;t have to talk with DataBase again and again. And that can serve the request much more faster since It's not taking to the database amd all the entire infrastructure again and again.
+
+
+
 
 ## **Ansible**
 - Ansible is one of the most popular tool and specially very popular in the community of Devops.
