@@ -71,10 +71,11 @@ Learn about it
 - **NOTE : YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialization language.\ 
    It is commonly used for configuration files and in applications where data is being stored or transmitted.**
 
-> **Ansible uses ML file, and YML is one of the easiest way of writing the code**
+
+>  **Ansible uses ML file, and YML is one of the easiest way of writing the code**
 > This is the actual code how you categorized your server code
 
-- ```
+```
   all :
       hosts:
          mail.example.com:
